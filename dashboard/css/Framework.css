@@ -2,6 +2,9 @@
 .d-flex{
   display: flex;
 }
+  .d-grid{
+    display: grid;
+  }
 .align-center{
   align-items: center;
 }
@@ -41,6 +44,9 @@
 .m-0{
   margin: 0px;
 }
+.m-15{
+  margin: 15px;
+}
 .m-20{
   margin: 20px;
 }
@@ -62,6 +68,9 @@
 .mt-25{
   margin-top: 25px;
 }
+.mr-10{
+  margin-right: 10px;
+}
 .mr-15{
   margin-right: 15px;
 }
@@ -70,6 +79,9 @@
 }
 .mb-10{
   margin-bottom: 10px;
+}
+.mb-15{
+  margin-bottom: 15px;
 }
 .mb-20{
   margin-bottom: 20px;
@@ -80,6 +92,9 @@
 
 .b-none{
   border: none;
+}
+.border-ccc{
+  border: 1px solid #ccc;
 }
 /*end padding + margin*/
 
@@ -142,7 +157,7 @@
   border-radius: 6px;
 }
 .rad-10{
-  border-radius: ;: 10px;
+  border-radius: 10px;
 }
 .rad-50{
   border-radius: 50%;
@@ -175,9 +190,7 @@
   .space-between{
     justify-content: space-between;
   }
-  .d-grid{
-    display: grid;
-  }
+
   .gap-20{
     gap: 20px;
   }
